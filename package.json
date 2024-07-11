@@ -1,0 +1,28 @@
+{
+  "name": "accredian-mernapp-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.2",
+    "@supabase/supabase-js": "^2.44.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "prisma": "^5.16.2"
+  }
+}
